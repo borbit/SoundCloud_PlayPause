@@ -1,0 +1,41 @@
+{
+  "manifest_version": 2,
+  "name": "SoundCloud Play/Pause",
+  "description": "SoundCloud Play/Pause",
+  "version": "0.0.0",
+
+  "icons": {
+    "16": "icon_play_16.png",
+    "48": "icon_play_48.png",
+    "128": "icon_play_128.png"
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "19": "icon_play_19.png",
+      "38": "icon_play_38.png"
+    }
+  },
+
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  
+  "content_scripts": [ {
+    "all_frames": false,
+    "run_at": "document_end",
+    "js": [
+      "content_script.js"
+    ],
+    "matches": [
+      "*://*.soundcloud.com/*"
+    ]
+  }],
+
+  "permissions": [
+    "*://*.soundcloud.com/*",
+    "*://soundcloud.com/*"
+  ]
+}
