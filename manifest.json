@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "SoundCloud Play/Pause",
-  "description": "SoundCloud Play/Pause",
-  "version": "0.0.0",
+  "description": "For those who want to set SoundCloud music on Pause/Play but don't want to waste time looking for a tab where this music is playing.",
+  "version": "0.0.2",
 
   "icons": {
     "16": "icon_play_16.png",
