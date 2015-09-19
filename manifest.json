@@ -2,7 +2,8 @@
   "manifest_version": 2,
   "name": "SoundCloud Play/Pause",
   "description": "For those who want to set SoundCloud music on Pause/Play but don't want to waste time looking for a tab where this music is playing.",
-  "version": "0.0.2",
+  "author": "Serge Borbit",
+  "version": "0.0.3",
 
   "icons": {
     "16": "icon_play_16.png",

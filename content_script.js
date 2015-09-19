@@ -2,7 +2,7 @@ var buttonMain = document.querySelector('.playControl');
 var playing = false;
 
 setInterval(function() {
-  var buttons = document.querySelectorAll('.playControl, .sc-button-play, .heroPlayButton');
+  var buttons = document.querySelectorAll('.playControl, .skipControl, .sound__waveform, .sc-button-play, .heroPlayButton');
 
   [].forEach.call(buttons, function(button) {
     button.removeEventListener('click', onClick)
